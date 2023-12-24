@@ -9,23 +9,35 @@
 </head>
 <body class="bg-amber-300 h-screen flex justify-center items-center">
 
-    <article class="card p-6 m-6 bg-white rounded-2xl border-2 border-black">
-        <div class="card_img_preview"></div>
+    <article class="card p-6 m-6 grid gap-4 bg-white rounded-2xl border border-black card_box-shadow">
+        <div class="card_img_preview">
+            <img src="assets/images/illustration-article.svg" alt="Article Preview" class="rounded-2xl">
+        </div>
         <div class="card_header">
-            <p class="card_content_category">Learning</p>
-            <p class="card_content_date">Published 21 Dec 2023</p>
+            <p class="card_content_category text-xs font-black py-1 px-3 bg-amber-300 inline-flex rounded-md mb-3">
+                Learning
+            </p>
+            <p class="card_content_date text-xs font-semibold">
+                Published 21 Dec 2023
+            </p>
         </div>
         <div class="card_content">
-            <h1 class="card_content_title">HTML & CSS foundations</h1>
-            <p class="card_content_description">
+            <h1 class="card_content_title text-xl font-bold mb-4">
+                HTML & CSS foundations
+            </h1>
+            <p class="card_content_description text-gray-500 text-sm">
                 These languages are the backbone of every
                 website, defining structure, content, and
                 presentation.
             </p>
         </div>
-        <div class="card_footer">
-            <div class="autor_preview"></div>
-            <div class="autor_name">Greg Hooper</div>
+        <div class="card_footer flex gap-3">
+            <div class="autor_preview">
+                <img src="assets/images/image-avatar.webp" alt="Avatar Profile" class="w-9">
+            </div>
+            <p class="autor_name self-center font-bold">
+                Greg Hooper
+            </p>
         </div>
     </article>
 
